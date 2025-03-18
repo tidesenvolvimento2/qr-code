@@ -6,32 +6,39 @@
     color: hsl(228, 45%, 44%);
 }
 
-.container {
+.section {
+    width: 100%;
+}
+
+.card {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    margin: 50px ;
     width: 320px;
     height: 499px;
-    padding: 16px 16px 16px 16px;
+    margin: 230px auto;
 }
 
 .text {
-    padding: 0px 16px 0px 16px;
+    margin: 0 auto;
     text-align: center;
     width: 256px;
 }
+
+
 body {
     font-family: Outfit;
-    background-color: #d5e1ef;
+    background-color: #D5E1EF;
 }
 
 h1 {
     font-size: 22px;
+    color: #1F314F;
 
 }
 
 p {
     font-size: 15px;
+    color: #68778D;
 }
 
 
@@ -39,6 +46,6 @@ div img {
     border-radius: 30px;
     width: 288px;
     height: 288px;
-    padding: 16px 16px 0px 16px;
+    margin: 16px 16px 0px 16px;
   
 }
